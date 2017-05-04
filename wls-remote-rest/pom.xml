@@ -12,6 +12,7 @@
   <description>The remote container adapter for WebLogic Server (12c+)</description>
   <properties>
     <version.jboss.javaee-6_api>1.0.0.Final</version.jboss.javaee-6_api>
+    <version.jersey>2.18</version.jersey>
     <cdi.api.version>1.0-SP1</cdi.api.version>
   </properties>
   <dependencies>
@@ -23,17 +24,17 @@
     <dependency>
       <groupId>org.glassfish.jersey.core</groupId>
       <artifactId>jersey-client</artifactId>
-      <version>2.15</version>
+      <version>${version.jersey}</version>
     </dependency>
     <dependency>
       <groupId>org.glassfish.jersey.media</groupId>
       <artifactId>jersey-media-json-processing</artifactId>
-      <version>2.15</version>
+      <version>${version.jersey}</version>
     </dependency>
     <dependency>
       <groupId>org.glassfish.jersey.media</groupId>
       <artifactId>jersey-media-multipart</artifactId>
-      <version>2.15</version>
+      <version>${version.jersey}</version>
     </dependency>
     <dependency>
       <groupId>org.jboss.arquillian.container</groupId>
